@@ -1,0 +1,372 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 10vmin; */
+  pointer-events: none;
+  border-radius: 500px;
+  height: 20px;
+  /* margin-right: 13%; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-food{
+  font-family: "Copperplate Gothic Light";
+}
+
+.App-header {
+  background-color: red;
+  min-height: 17vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #c0d0d8;
+  min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+  background-image: url('bg1.jpg');
+  background-size: cover;
+}
+
+.App-login {
+  border:1px solid red;
+  background-color: #ffffff;
+  /* padding: 10px; */
+  min-height: 350px;
+  min-width: 350px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+  /* background-image: url('bg.jpg');
+  background-size: cover; */
+}
+
+.App-reg{
+  background-color: white;
+}
+
+.App-row{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-input{
+  margin-bottom: 20px;
+  /* margin-right: 25px; */
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-input-pass{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.eyeBtn{
+  background-color: white;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.home{
+  background-color: white;
+  min-height: 80vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.card1_img {
+  width: 20vw;
+  height: 30vh;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.para_card {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 10vh;
+  padding-top: 0px;
+  cursor: pointer;
+}
+
+.para {
+  font-family: Brush Script MT;
+  font-size: 30px;
+  color: black;
+}
+
+.co{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.food_card11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.food_card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.food_para_card {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 10vh;
+  padding-top: 0px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.food_card_right{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  height: 200px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.food_card_left{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  height: 200px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.hotel_card_about_us{
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  background-color:rgb(14, 14, 61);
+  color: white;
+  text-align: left;
+}
+
+.hotel_about_us_para_card{
+  font-size: 20px;
+  color: white;
+}
+
+.hotel_about_us{
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.hotel_address{
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.hotel_contact{
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.para1 {
+  font-family: serif;
+  font-size: 30px;
+  color: black;
+}
+
+.chat_bot_card{
+  height: 130px;
+  width: 130px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+.chat_bot_img{
+  height: 120px;
+  width: 120px;
+}
+
+.chat_img{
+  height: 200px;
+}
+
+.chat{
+  text-align: left;
+}
+
+.user{
+  text-align: right;
+}
+
+.send-msg-btn {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  height: 52px;
+  border-width: 0;
+  border-radius: 10px;
+  margin: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.user-input {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  font-weight: 900;
+  height: 52px;
+  border-width: 0;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 15px;
+}
+
+.msg-from-chatbot-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 300px;
+  margin-left: 10px;
+}
+
+.msg-from-chatbot {
+  color: white;
+  background-color: #e57742;
+  font-family: "Roboto";
+  font-weight: 900;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.msg-to-chatbot-container {
+  text-align: right;
+  margin-left: 350px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.msg-to-chatbot {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.chat_in{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+  height: 100%;
+  /* border-left-color: blue;
+  border-left-width: 20px; */
+  border-color: blue;
+  border-width: 30px;
+}
+
+.chat_home{
+  background-color: white;
+  min-height: 80vh;
+  width: 100vw;
+  align-items: center;
+  /* background-image: url('https://botnation.ai/site/wp-content/uploads/2022/01/chatbot-1-1348x800.png'); */
+  /* text-align: center; */
+  
+}
+
+.top{
+  height: 40px;
+  background-color: blue;
+}
+
+.left_and_right_border{
+  border-width: 20px;
+  border-style: solid;
+  border-color: blue;
+  width: 700px;
+  margin-left: 100px;
+  background-image: url('https://siamcomputing.com/wp-content/uploads/2022/05/Chatbot.png');
+  /* background-image: url('https://website-assets-fw.freshworks.com/attachments/ck340ov180hsy65g0yxb6gbhb-1-chatbots-for-marketing-smm.one-half.png'); */
+  background-size: cover;
+  background-position:center center;
+}
+
+.homeOwner{
+  background-color: white;
+  width: 100vw;
+  align-items: center;
+  padding-bottom: 20px;
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
